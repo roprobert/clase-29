@@ -25,6 +25,9 @@ function setup()
   }
   fruit = Bodies.circle(300,300,15,fruit_options);
   Matter.Composite.add(rope.body, fruit);
+  rectMode(CENTER);
+  ellipseMode(RADIUS);
+  textSize(50)
   
 }
 
